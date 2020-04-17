@@ -120,15 +120,22 @@ body,html {
 
 }
 .logomain{
-  top: 70%;/*20*/
-  left: 49%;/*49*/
+  top: 75%;/*20*/
+  left: 58%;/*49*/
   transform: translate(-50% , -50%);
   background: url('Images/LOGO.png') no-repeat center center ;
-  background-size: 100%;
+  background-size: 105%;
   position: absolute;
   height: 150%;
   width: 100%;
 }
+
+.logomain:hover{
+  top:76%;
+  left:59%;
+  background-size: 108%;
+}
+
 main {
   position: relative;
   z-index: 1;
@@ -347,12 +354,12 @@ h1
 }
 @media only screen and (max-width: 600px) {
   .logomain{
-    margin-top: 150px;
-    top: 50%;/*20*/
+    margin-top: 100px;
+    top: 20%
     left: 49%;/*49*/
     transform: translate(-50% , -50%);
     background: url('Images/logo.png') no-repeat center center ;
-    background-size: 100%;
+    background-size: 150%;
     position: absolute;
     height: 150%;
     width: 100%;
