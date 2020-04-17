@@ -123,8 +123,8 @@ body,html {
   top: 70%;/*20*/
   left: 49%;/*49*/
   transform: translate(-50% , -50%);
-  background: url('Images/Logo.png') no-repeat center center ;
-  background-size: 100%;
+  background: url('Images/LOGO.png') no-repeat center center ;
+  background-size: 150%;
   position: absolute;
   height: 150%;
   width: 100%;
